@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Core\Demo.Core.csproj" />
+    <ProjectReference Include="..\Tenant1\Demo.Tenant1.Core\Demo.Tenant1.Core.csproj" />
+    <ProjectReference Include="..\Tenant2\Demo.Tenant2.Core\Demo.Tenant2.Core.csproj" />
+  </ItemGroup>
+
+</Project>
