@@ -7,7 +7,6 @@ builder.Services.AddHttpContextAccessor();
 
 // Add services to the container.
 builder.Services.AddTransient<GetCustomersQuery>();
-
 builder.Services.AddCustomerService();
 
 builder.Services.AddControllers();
